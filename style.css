@@ -500,14 +500,22 @@ header img:hover {
     margin-bottom: 30px;
 }
 
-.sec2 .card svg {
+
+.tron {
+    width: 100px;
+    margin-left: 55px;
+    padding: 19px 0px;
+    background-color: #f8f8f8;
+    border-radius: 100%;
+}
+/* .sec2 .card svg {
     margin: auto;
     display: block;
     padding: 45px;
     border-radius: 38%;
     background-color: #f8f8f8;
     fill: #41246D;
-}
+} */
 
 .sec2 .card h4 {
     font-size: 24px;
@@ -1853,7 +1861,13 @@ header img:hover {
         width: 88%;
         margin: auto;
     }
-
+    .tron{
+        width: 100px;
+        margin-left: 120px;
+        padding: 25px;
+        background-color: #f8f8f8;
+        border-radius: 100%;
+    }
 
 
 
