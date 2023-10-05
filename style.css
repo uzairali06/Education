@@ -967,7 +967,7 @@ header img:hover {
     top: 65px;
     left: -11px;
     font-size: 23px;
-    padding: 8px 0px 0px 40px;
+    padding: 5px 48px 5px 61px;
     font-weight: 800;
     text-align: center;
 }
@@ -1063,8 +1063,11 @@ header img:hover {
     padding: 0px;
 }
 
-.sec6div a svg:hover {
+.sec6div .cover2:hover {
     background-color: rgb(150, 16, 64);
+    fill: white;
+}
+.sec6div .cover2:hover svg{
     fill: white;
 }
 
@@ -1151,7 +1154,10 @@ header img:hover {
     width: 26px;
 }
 
-.sec7body .card .logo svg:hover {
+.sec7body .card .logo .cover:hover {
+    background-color: #961040;
+}
+.sec7body .card .logo .cover:hover svg {
     background-color: #961040;
 }
 
@@ -1548,11 +1554,10 @@ header img:hover {
     height: 16px;
     width: 30px;
 }
-.end1 .logo2 svg:hover{
+.end1 .logo2 .cover3:hover{
     background-color: #961040;
     fill: white;
     border: none;
-    padding: 9px;
 } 
 .end2 {
     width: 25%;
@@ -1773,13 +1778,13 @@ header img:hover {
         width: 180px;
     }
     .sec5{
-        height: 1640px;
+        height: 1540px;
     }
     .sec5bgc{
-        height: 1640px;
+        height: 1540px;
     }
     .circulimg {
-        height: 120px;
+        height: 75px;
         width: 100%;
     }
     .sec5 .c2{
@@ -1802,6 +1807,9 @@ header img:hover {
     .sec5left a{
         width: 155px;
     }
+    .sec5left h2 {
+        font-size: 30px;
+    }
     .sec5right {
         width: 100%;
         position: sticky;
@@ -1813,13 +1821,14 @@ header img:hover {
     }
     .c1small h4{
         right: 1px;
-        padding: 0px;
         position: sticky;
+        padding: 15px 0px 0px 0px;
     }
     .c4small{    border-radius: 0% 0% 100% 100%;
     }
     .c4small h4{
         left: -33px;
+        
         padding: 0%;
         position: static;
     }
@@ -1873,6 +1882,9 @@ header img:hover {
     }
     .vidright {
         width: 100%;
+    }
+    .vidright h2 {
+        font-size: 28px;
     }
     .sec8 .card {
         display: block;
