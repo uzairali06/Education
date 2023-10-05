@@ -641,6 +641,7 @@ header img:hover {
 }
 
 .set {
+    position: relative;
     padding: 0px 10px;
 }
 
@@ -794,14 +795,32 @@ header img:hover {
     background-image: url(./Image/sec5-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    /* z-index: 1; */
     background-position: center center;
     height: 550px;
     position: relative;
 }
 
 .sec5bgc {
-    z-index: -1;
+    /* z-index: -1; */
+    position: absolute;
+    background-color: #41246D;
+    opacity: .95;
+    height: 550px;
+    width: 100%;
+}
+.sec53 {
+    margin-bottom: 130px;
+    background-image: url(./Image/sec5-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: 1; */
+    background-position: center center;
+    height: 550px;
+    position: relative;
+}
+.sec5bgc3 {
+    /* z-index: -1; */
     position: absolute;
     background-color: #41246D;
     opacity: .95;
@@ -819,7 +838,7 @@ header img:hover {
 
 .sec5left {
     width: 47%;
-    padding: 80px 0px 0px 50px;
+    padding: 80px 0px 80px 50px;
 }
 
 .sec5left h2 {
@@ -1030,15 +1049,18 @@ header img:hover {
     color: #414141;
 }
 
-.sec6div a svg {
+.cover2{
     position: absolute;
-    bottom: -29px;
+    bottom: -23px;
     right: 41%;
-    text-align: center;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
-    background-color: #FFF;
+    padding: 15px 15px 11px 15px;
     border-radius: 100%;
-    padding: 20px 21px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sec6div a svg {
+    padding: 0px;
 }
 
 .sec6div a svg:hover {
@@ -1115,11 +1137,18 @@ header img:hover {
     gap: 8px;
 }
 
+.sec7body .card .logo .cover{
+    padding: 10px 7px 6px 7px;
+    background-color: #41246D;
+    border-radius: 100%;
+}
 .sec7body .card .logo svg {
-    padding: 10px;
+    
     background-color: #41246D;
     border-radius: 100%;
     fill: #fff;
+    height: 17px;
+    width: 26px;
 }
 
 .sec7body .card .logo svg:hover {
@@ -1503,14 +1532,21 @@ header img:hover {
     display: flex;
     gap: 5px;
 }
-
-.end1 .logo2 svg {
-    background-color: transparent;
-    fill: #d9d9d9;
+.cover3 {
     border-radius: 100%;
     border: 1px solid #a7a7a7;
+    padding: 5px 0px 2px 0px;
+}
+
+.end1 .logo2 svg {
+    /* background-color: transparent; */
+    /* border-radius: 100%;
+    border: 1px solid #a7a7a7;
     padding: 7px;
-    transition: .3s all;
+    transition: .3s all; */
+    fill: #d9d9d9;
+    height: 16px;
+    width: 30px;
 }
 .end1 .logo2 svg:hover{
     background-color: #961040;
@@ -1617,7 +1653,7 @@ header img:hover {
     }
     .center{
         width: 100%;
-        padding: 2%;
+        padding: 0% 5%;
     }
     .uphead{
         display: none;
@@ -1637,7 +1673,11 @@ header img:hover {
         font-size: 14px;
     }
     .heroleft a{
-        width: 37%;
+        margin: 20px 0px;
+        width: 147px;
+    }
+    .heroright{
+        background-size: cover;
     }
     .heroright img {
         width: 98%;
@@ -1648,6 +1688,7 @@ header img:hover {
     }
     .sec1left{
         width: 100%;
+        padding: 60px 0px;
     }
     .sec1left img{
         width: 100%;
@@ -1682,7 +1723,7 @@ header img:hover {
         width: 100%;
     }
     .categori a{
-        width: 44%;
+        width: 199px;
         margin-bottom: 35px;
     }
     .sec2 .card{
@@ -1694,12 +1735,33 @@ header img:hover {
     .sec2 .form {
         width: 100%;
     }
+    .form .input50 {
+        width: 100%;
+    }
+    .form input{
+        padding: 14px 94px 14px 16px;
+        width: 100%;
+    }
+    .form .input70 {
+        width: 100%;
+    }
+    .form .input70 input{
+        width: 100%;
+        padding: 14px 94px 14px 16px;
+    }
     .sec4 .card {
         width: 100%;
         margin-bottom: 50px;
     }
     .carddad .card .pose{
-        top: 290px;
+        top: -20px;
+        width: 125px;
+    }
+    .carddad .card .pose2{
+        top: -20px;
+    }
+    .carddad .card .pose3{
+        top: -20px;
     }
     .save{
         height: 38px;
@@ -1708,16 +1770,25 @@ header img:hover {
         display: block;
     }
     .sec4a {
-        width: 41%;
+        width: 180px;
     }
     .sec5{
-        height: 265vh;
+        height: 1640px;
     }
     .sec5bgc{
-        height: 265vh;
+        height: 1640px;
     }
     .circulimg {
-        height: 240px;
+        height: 120px;
+        width: 100%;
+    }
+    .sec5 .c2{
+        border-radius: 0%;
+        height: 300px;
+    }
+    .sec5 .c3{
+        border-radius: 0%;
+        height: 300px;
     }
     .sec5main {
         display: block;
@@ -1729,18 +1800,28 @@ header img:hover {
         padding: 80px 0px 0px 10px;
     }
     .sec5left a{
-        width: 39%;
+        width: 155px;
     }
     .sec5right {
         width: 100%;
-        position: unset;
+        position: sticky;
+        display: block;
         padding-top: 100px;
+    }
+    .c1small {
+        border-radius: 100% 100% 0% 0%;
     }
     .c1small h4{
         right: 1px;
+        padding: 0px;
+        position: sticky;
+    }
+    .c4small{    border-radius: 0% 0% 100% 100%;
     }
     .c4small h4{
         left: -33px;
+        padding: 0%;
+        position: static;
     }
     .sec6body {
         display: block;
@@ -1756,7 +1837,8 @@ header img:hover {
         display: block;
     }
     .sec7head a {
-        width: 44%;
+        width: max-content;
+        margin: 20px 0px;
     }
     .sec7body {
         display: block;
@@ -1769,8 +1851,16 @@ header img:hover {
         display: block;
         position: unset;
     }
+    .sec53{
+        height: 750px;
+        margin-bottom: 30px;
+    }
+    .sec5bgc3{
+        height: 750px;
+    }
     .vidleft {
         width: 100%;
+        margin-bottom: 30px;
     }
     .vidright {
         width: 100%;
@@ -1781,8 +1871,11 @@ header img:hover {
     .sec8 .card1{
         width: 100%;
     }
+    .span{
+        border: none;
+    }
     .sec8 a {
-        width: 46%;
+        width: max-content;
     }
     .sec9card {
         display: block;
@@ -1800,10 +1893,10 @@ header img:hover {
         padding: 0px 0px 0px 0px;
     }
     .sec52{
-        height: 326vh;
+        height: 1500px;
     }
     .sec5bgc2{
-        height: 326vh;
+        height: 1500px;
     }
     .box {
         display: block;
@@ -1863,7 +1956,7 @@ header img:hover {
     }
     .tron{
         width: 100px;
-        margin-left: 120px;
+        margin:auto ;
         padding: 25px;
         background-color: #f8f8f8;
         border-radius: 100%;
